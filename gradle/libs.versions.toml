@@ -15,6 +15,7 @@ navigationFragmentKtx = "2.8.7"
 recyclerviewVersion = "1.4.0"
 skeleton = "1.1.2"
 viewbinding = "4.1.0"
+roomKtx = "2.6.1"
 
 [libraries]
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
@@ -33,6 +34,7 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 skeleton = { module = "com.ethanhua:skeleton", version.ref = "skeleton" }
 koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndroid" }
 koin-androidx-viewmodel = { module = "io.insert-koin:koin-androidx-viewmodel", version.ref = "koinAndroid" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
